@@ -1,0 +1,122 @@
+{
+    "path_checkpoints": [
+        "/content/Fooocus/models/checkpoints"
+    ],
+    "path_loras": [
+        "/content/Fooocus/models/loras"
+    ],
+    "path_embeddings": "/content/Fooocus/models/embeddings",
+    "path_vae_approx": "/content/Fooocus/models/vae_approx",
+    "path_vae": "/content/Fooocus/models/vae",
+    "path_upscale_models": "/content/Fooocus/models/upscale_models",
+    "path_inpaint": "/content/Fooocus/models/inpaint",
+    "path_controlnet": "/content/Fooocus/models/controlnet",
+    "path_clip_vision": "/content/Fooocus/models/clip_vision",
+    "path_fooocus_expansion": "/content/Fooocus/models/prompt_expansion/fooocus_expansion",
+    "path_wildcards": "/content/Fooocus/wildcards",
+    "path_safety_checker": "/content/Fooocus/models/safety_checker",
+    "path_sam": "/content/Fooocus/models/sam",
+    "path_outputs": "/content/drive/MyDrive/anora/Fooocus/outputs",
+
+    "temp_path": "/tmp/fooocus",
+    "temp_path_cleanup_on_launch": true,
+    "default_model": "MoP.safetensors",
+    "previous_default_models": [
+        "realisticStockPhoto_v10.safetensors"
+    ],
+    "default_refiner": "Gonzalomo_Refiner.safetensors",
+    "default_refiner_switch": 0.5,
+    "default_loras_min_weight": -2,
+    "default_loras_max_weight": 2,
+    "default_loras": [
+        [
+            true,
+            "BetterBodies.safetensors",
+            0.7
+        ],
+        [
+            true,
+            "Instagirl.safetensors",
+            0.8
+        ],
+        [
+            true,
+            "None",
+            1.0
+        ],
+        [
+            true,
+            "None",
+            1.0
+        ],
+        [
+            true,
+            "None",
+            1.0
+        ]
+    ],
+    "default_max_lora_number": 8,
+    "default_styles": [],
+    "default_prompt_negative": "<YogiAnatNeg>, <YogiRealismNeg>, <YogiGeneralNeg>, <YogiPDXLNeg>, unrealistic, saturated, high contrast, big nose, painting, drawing, sketch, cartoon, anime, manga, render, CG, 3d, watermark, signature, label",
+    "default_prompt": "",
+    "default_performance": "Quality",
+    "default_image_prompt_checkbox": false,
+    "default_enhance_checkbox": false,
+    "default_advanced_checkbox": true,
+    "default_developer_debug_mode_checkbox": true,
+    "default_image_prompt_advanced_checkbox": true,
+    "default_max_image_number": 64,
+    "default_output_format": "png",
+    "default_image_number": 8,
+
+    "base_downloads": {
+        "MoP.safetensors": "https://civitai.com/api/download/models/2229335?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+    },
+
+    "refiner_downloads": {
+        "Gonzalomo_Refiner.safetensors": "https://civitai.com/api/download/models/2052057?type=Model&format=SafeTensor&size=full&fp=fp16"
+    },
+
+    "lora_downloads": {
+        "BetterBodies.safetensors": "https://civitai.com/api/download/models/1089807?type=Model&format=SafeTensor",
+        "SuperDetailer.safetensors": "https://civitai.com/api/download/models/1065885?type=Model&format=SafeTensor",
+    },
+
+    "embeddings_downloads": {
+        "YogiAnatNeg.pt": "https://civitai.com/api/download/models/2044068?type=Negative&format=Other",
+        "YogiRealismNeg.pt": "https://civitai.com/api/download/models/2044451?type=Negative&format=Other",
+        "YogiGeneralNeg.pt": "https://civitai.com/api/download/models/2044454?type=Negative&format=Other",
+        "YogiPDXLNeg.pt": "https://civitai.com/api/download/models/1503612?type=Negative&format=Other"
+    }
+
+    "available_aspect_ratios": [
+        "1080*1920",
+        "704*1408",
+        "704*1344",
+        "768*1344",
+        "768*1280",
+        "832*1216",
+        "832*1152",
+        "896*1152",
+        "896*1088",
+        "960*1088",
+        "960*1024",
+        "1024*1024",
+        "1024*960",
+        "1088*960",
+        "1088*896",
+        "1152*896",
+        "1152*832",
+        "1216*832",
+        "1280*768",
+        "1344*768",
+        "1344*704",
+        "1408*704",
+        "1472*704",
+        "1536*640",
+        "1600*640",
+        "1664*576",
+        "1728*576"
+    ],
+    "default_aspect_ratio": "1080*1920"
+}
