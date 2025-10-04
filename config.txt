@@ -87,7 +87,7 @@
         "YogiRealismNeg.pt": "https://civitai.com/api/download/models/2044451?type=Negative&format=Other",
         "YogiGeneralNeg.pt": "https://civitai.com/api/download/models/2044454?type=Negative&format=Other",
         "YogiPDXLNeg.pt": "https://civitai.com/api/download/models/1503612?type=Negative&format=Other"
-    }
+    },
 
     "available_aspect_ratios": [
         "1080*1920",
