@@ -1,0 +1,57 @@
+{
+    "default_model": "MoP.safetensors",
+    "default_refiner": "Gonzalomo_Refiner.safetensors",
+    "default_refiner_switch": 0.75,
+    "default_loras": [
+        [
+            true,
+            "BetterBodies.safetensors",
+            0.7
+        ],
+        [
+            true,
+            "Instagirl.safetensors",
+            0.8
+        ],
+        [
+            true,
+            "None",
+            1.0
+        ],
+        [
+            true,
+            "None",
+            1.0
+        ],
+        [
+            true,
+            "None",
+            1.0
+        ]
+    ],
+    "default_cfg_scale": 7.0,
+    "default_sample_sharpness": 2.0,
+    "default_sampler": "dpmpp_2m_sde_gpu",
+    "default_scheduler": "karras",
+    "default_performance": "Quality",
+    "default_prompt": "",
+    "default_prompt_negative": "",
+    "default_styles": [],
+    "default_aspect_ratio": "1080*1920",
+    "default_overwrite_step": -1,
+    "checkpoint_downloads": {
+        "MoP.safetensors": "https://civitai.com/api/download/models/2229335?type=Model&format=SafeTensor&size=pruned&fp=fp16&token=cdc57523389bf56bcc5b0df68bb6924f",
+        "Gonzalomo_Refiner.safetensors": "https://civitai.com/api/download/models/2052057?type=Model&format=SafeTensor&size=full&fp=fp16&token=cdc57523389bf56bcc5b0df68bb6924f"
+    },
+    "embeddings_downloads": {
+        "YogiAnatNeg.pt": "https://civitai.com/api/download/models/2044068?type=Negative&format=Other&token=cdc57523389bf56bcc5b0df68bb6924f",
+        "YogiRealismNeg.pt": "https://civitai.com/api/download/models/2044451?type=Negative&format=Other&token=cdc57523389bf56bcc5b0df68bb6924f",
+        "YogiGeneralNeg.pt": "https://civitai.com/api/download/models/2044454?type=Negative&format=Other&token=cdc57523389bf56bcc5b0df68bb6924f",
+        "YogiPDXLNeg.pt": "https://civitai.com/api/download/models/1503612?type=Negative&format=Other&token=cdc57523389bf56bcc5b0df68bb6924f"
+    },
+    "lora_downloads": {
+        "BetterBodies.safetensors": "https://civitai.com/api/download/models/1089807?type=Model&format=SafeTensor&token=cdc57523389bf56bcc5b0df68bb6924f",
+        "SuperDetailer.safetensors": "https://civitai.com/api/download/models/1065885?type=Model&format=SafeTensor&token=cdc57523389bf56bcc5b0df68bb6924f"
+    },
+    "previous_default_models": []
+}
