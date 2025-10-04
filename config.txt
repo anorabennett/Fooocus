@@ -79,7 +79,7 @@
 
     "lora_downloads": {
         "BetterBodies.safetensors": "https://civitai.com/api/download/models/1089807?type=Model&format=SafeTensor",
-        "SuperDetailer.safetensors": "https://civitai.com/api/download/models/1065885?type=Model&format=SafeTensor",
+        "SuperDetailer.safetensors": "https://civitai.com/api/download/models/1065885?type=Model&format=SafeTensor"
     },
 
     "embeddings_downloads": {
