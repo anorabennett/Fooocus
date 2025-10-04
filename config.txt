@@ -64,10 +64,8 @@
     "default_max_image_number": 64,
     "default_output_format": "png",
     "default_image_number": 8,
-    "base_downloads": {
-        "MoP.safetensors": "https://civitai.com/api/download/models/2229335?type=Model&format=SafeTensor&size=pruned&fp=fp16&token=cdc57523389bf56bcc5b0df68bb6924f"
-    },
-    "refiner_downloads": {
+    "checkpoint_downloads": {
+        "MoP.safetensors": "https://civitai.com/api/download/models/2229335?type=Model&format=SafeTensor&size=pruned&fp=fp16&token=cdc57523389bf56bcc5b0df68bb6924f",
         "Gonzalomo_Refiner.safetensors": "https://civitai.com/api/download/models/2052057?type=Model&format=SafeTensor&size=full&fp=fp16&token=cdc57523389bf56bcc5b0df68bb6924f"
     },
     "lora_downloads": {
