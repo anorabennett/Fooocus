@@ -17,13 +17,9 @@
     "path_safety_checker": "/content/Fooocus/models/safety_checker",
     "path_sam": "/content/Fooocus/models/sam",
     "path_outputs": "/content/drive/MyDrive/anora/Fooocus/outputs",
-
     "temp_path": "/tmp/fooocus",
     "temp_path_cleanup_on_launch": true,
     "default_model": "MoP.safetensors",
-    "previous_default_models": [
-        "realisticStockPhoto_v10.safetensors"
-    ],
     "default_refiner": "Gonzalomo_Refiner.safetensors",
     "default_refiner_switch": 0.5,
     "default_loras_min_weight": -2,
@@ -68,27 +64,22 @@
     "default_max_image_number": 64,
     "default_output_format": "png",
     "default_image_number": 8,
-
     "base_downloads": {
         "MoP.safetensors": "https://civitai.com/api/download/models/2229335?type=Model&format=SafeTensor&size=pruned&fp=fp16&token=cdc57523389bf56bcc5b0df68bb6924f"
     },
-
     "refiner_downloads": {
         "Gonzalomo_Refiner.safetensors": "https://civitai.com/api/download/models/2052057?type=Model&format=SafeTensor&size=full&fp=fp16&token=cdc57523389bf56bcc5b0df68bb6924f"
     },
-
     "lora_downloads": {
         "BetterBodies.safetensors": "https://civitai.com/api/download/models/1089807?type=Model&format=SafeTensor&token=cdc57523389bf56bcc5b0df68bb6924f",
         "SuperDetailer.safetensors": "https://civitai.com/api/download/models/1065885?type=Model&format=SafeTensor&token=cdc57523389bf56bcc5b0df68bb6924f"
     },
-
     "embeddings_downloads": {
         "YogiAnatNeg.pt": "https://civitai.com/api/download/models/2044068?type=Negative&format=Other&token=cdc57523389bf56bcc5b0df68bb6924f",
         "YogiRealismNeg.pt": "https://civitai.com/api/download/models/2044451?type=Negative&format=Other&token=cdc57523389bf56bcc5b0df68bb6924f",
         "YogiGeneralNeg.pt": "https://civitai.com/api/download/models/2044454?type=Negative&format=Other&token=cdc57523389bf56bcc5b0df68bb6924f",
         "YogiPDXLNeg.pt": "https://civitai.com/api/download/models/1503612?type=Negative&format=Other&token=cdc57523389bf56bcc5b0df68bb6924f"
     },
-
     "available_aspect_ratios": [
         "1080*1920",
         "704*1408",
