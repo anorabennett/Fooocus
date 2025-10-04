@@ -32,8 +32,8 @@
         ],
         [
             true,
-            "Instagirl.safetensors",
-            0.8
+            "SuperDetailer.safetensors",
+            0.6
         ],
         [
             true,
