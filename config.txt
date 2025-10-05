@@ -55,7 +55,7 @@
     "default_styles": [],
     "default_prompt_negative": "<YogiAnatNeg>, <YogiRealismNeg>, <YogiGeneralNeg>, <YogiPDXLNeg>, unrealistic, saturated, high contrast, big nose, painting, drawing, sketch, cartoon, anime, manga, render, CG, 3d, watermark, signature, label",
     "default_prompt": "",
-    "default_performance": "Quality",
+    "default_performance": "Speed",
     "default_image_prompt_checkbox": false,
     "default_enhance_checkbox": false,
     "default_advanced_checkbox": true,
@@ -63,9 +63,8 @@
     "default_image_prompt_advanced_checkbox": true,
     "default_max_image_number": 64,
     "default_output_format": "png",
-    "default_image_number": 8,
+    "default_image_number": 1,
     "checkpoint_downloads": {
-        "MoP.safetensors": "https://civitai.com/api/download/models/2229335?type=Model&format=SafeTensor&size=pruned&fp=fp16&token=cdc57523389bf56bcc5b0df68bb6924f",
         "Gonzalomo_Refiner.safetensors": "https://civitai.com/api/download/models/2052057?type=Model&format=SafeTensor&size=full&fp=fp16&token=cdc57523389bf56bcc5b0df68bb6924f"
     },
     "lora_downloads": {
@@ -105,7 +104,8 @@
         "1536*640",
         "1600*640",
         "1664*576",
-        "1728*576"
+        "1728*576",
+        "400*400"
     ],
     "default_aspect_ratio": "1080*1920"
 }

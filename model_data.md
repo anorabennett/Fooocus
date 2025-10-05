@@ -70,3 +70,40 @@ INSTAGRAM - https://civitai.com/models/1822984/instagirl-wan-22
 PUSSY - https://civitai.com/models/1787799?modelVersionId=2030540 
 
 
+### FINALS - 
+
+config:
+
+Base - GonazaLomo XL  , Flux Whatever
++ 2 Loras - BetterBodies, SuperDetailer
+Negative Prompt: <YogiAnatNeg>, <YogiRealismNeg>, <YogiGeneralNeg>, <YogiPDXLNeg>, unrealistic, saturated, high contrast, big nose, painting, drawing, sketch, cartoon, anime, manga, render, CG, 3d, watermark, signature, label, hair
+
+
+
+ADVANCED:
+
+guidance scale = 1.3
+sharpness = 2 (could be less but works well)
++ ADM = 1.4
+- ADM = 0.8
+ADM end at step = 0.35
+refiner swap method = joint
+CFG mimicking from TSNR = 1.2
+CLIP skip = 2
+sample = LCM
+scheduler = karras
+VAE = Default
+
+FOrced Overwrite Sampling Step = 14-16
+
+
+<Stable_Yogis_PDXL_Positives>, a young blonde girl drinking coffee in a cafe, soft lighting, photorealistic, cozy atmosphere, detailed eyes, cinematic depth
+<lora:Instagirl:0.7>
+<lora:BetterBodiesByStableYogi:0.8>
+
+
+<Stable_Yogis_PDXL_Negatives-neg>, blurry, bad anatomy, lowres, overexposed, deformed hands
+
+
+
+    civit api key = cdc57523389bf56bcc5b0df68bb6924f
