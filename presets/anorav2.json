@@ -50,8 +50,12 @@
     },
     "embeddings_downloads": {
         "YogiAnatNeg.pt": "https://civitai.com/api/download/models/2044068?type=Negative&format=Other&token=cdc57523389bf56bcc5b0df68bb6924f",
+        "YogiAnatPos.pt": "https://civitai.com/api/download/models/2044573?type=Model&format=SafeTensor&token=cdc57523389bf56bcc5b0df68bb6924f",
         "YogiRealismNeg.pt": "https://civitai.com/api/download/models/2044451?type=Negative&format=Other&token=cdc57523389bf56bcc5b0df68bb6924f",
+        "YogiRealismPos.pt": "https://civitai.com/api/download/models/2044578?type=Model&format=SafeTensor&token=cdc57523389bf56bcc5b0df68bb6924f",
         "YogiGeneralNeg.pt": "https://civitai.com/api/download/models/2044454?type=Negative&format=Other&token=cdc57523389bf56bcc5b0df68bb6924f",
+        "YogiGeneralPos.pt": "https://civitai.com/api/download/models/2044581?type=Model&format=SafeTensor&token=cdc57523389bf56bcc5b0df68bb6924f",
+        "YogiPDXLPos.pt": "https://civitai.com/api/download/models/1503873?type=Model&format=SafeTensor&token=cdc57523389bf56bcc5b0df68bb6924f",
         "YogiPDXLNeg.pt": "https://civitai.com/api/download/models/1503612?type=Negative&format=Other&token=cdc57523389bf56bcc5b0df68bb6924f"
     },
     "lora_downloads": {
