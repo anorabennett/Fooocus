@@ -1,0 +1,65 @@
+{
+    "default_model": "YogiRealismPony-v6.0.fp16.safetensors",
+    "default_refiner": "None",
+    "default_refiner_switch": 0.5,
+    "default_loras": [
+        [
+            true,
+            "YogiRealismLora-v3.0.lite.safetensors",
+            0.15
+        ],
+        [
+            true,
+            "None",
+            1.0
+        ],
+        [
+            true,
+            "None",
+            1.0
+        ],
+        [
+            true,
+            "None",
+            1.0
+        ],
+        [
+            true,
+            "None",
+            1.0
+        ]
+    ],
+    "default_cfg_scale": 4.0,
+    "default_cfg_tsnr": 1.2,
+    "default_sample_sharpness": 2.0,
+    "default_sampler": "dpmpp_sde_gpu",
+    "default_scheduler": "karras",
+    "default_performance": "Speed",
+    "default_max_lora_number": 8,
+    "default_styles": [],
+    "default_prompt_negative": "<YogiAnatNeg>, <YogiGeneralNeg>, <YogiRealismNeg>",
+    "default_prompt": "<YogiAnatPos>, <YogiGeneralPos>, <YogiRealismPos>, 1girl, solo, long hair, breasts, looking at viewer, blush, smile, open mouth, blue eyes, large breasts, bow, navel, animal ears, hair between eyes, jewelry, sitting, nipples, full body, white hair, thighs, :d, outdoors, earrings, sweat, nude, teeth, food, shoes, pussy, socks, tongue, day, artist name, bowtie, spread legs, stomach, mole, rabbit ears, vaginal, fingernails, tree, eyelashes, wrist cuffs, mole under eye, fake animal ears, uncensored, detached collar, upper teeth only, anus, pussy juice, blue bow, white socks, white footwear, grass, sneakers, sex toy, knees up, breasts apart, masturbation, mole on breast, spread pussy, female masturbation, object insertion, blue bowtie, nose, clitoris, carrot, on ground, m legs, vaginal object insertion, against tree",
+    "default_aspect_ratio": "400*400",
+    "default_overwrite_step": 27,
+    "default_clip_skip": 2,
+    "default_advanced_checkbox": true,
+    "default_developer_debug_mode_checkbox": true,
+    "default_image_prompt_advanced_checkbox": true,
+    "checkpoint_downloads": {
+        "YogiRealismPony-v6.0.fp16.safetensors": "https://civitai.com/api/download/models/2176178?type=Model&format=SafeTensor&size=pruned&fp=fp16&token=cdc57523389bf56bcc5b0df68bb6924f"
+    },
+    "embeddings_downloads": {
+        "YogiAnatNeg.pt": "https://civitai.com/api/download/models/2044068?type=Negative&format=Other&token=cdc57523389bf56bcc5b0df68bb6924f",
+        "YogiAnatPos.pt": "https://civitai.com/api/download/models/2044573?type=Model&format=SafeTensor&token=cdc57523389bf56bcc5b0df68bb6924f",
+        "YogiRealismNeg.pt": "https://civitai.com/api/download/models/2044451?type=Negative&format=Other&token=cdc57523389bf56bcc5b0df68bb6924f",
+        "YogiRealismPos.pt": "https://civitai.com/api/download/models/2044578?type=Model&format=SafeTensor&token=cdc57523389bf56bcc5b0df68bb6924f",
+        "YogiGeneralNeg.pt": "https://civitai.com/api/download/models/2044454?type=Negative&format=Other&token=cdc57523389bf56bcc5b0df68bb6924f",
+        "YogiGeneralPos.pt": "https://civitai.com/api/download/models/2044581?type=Model&format=SafeTensor&token=cdc57523389bf56bcc5b0df68bb6924f",
+        "YogiPDXLPos.pt": "https://civitai.com/api/download/models/1503873?type=Model&format=SafeTensor&token=cdc57523389bf56bcc5b0df68bb6924f",
+        "YogiPDXLNeg.pt": "https://civitai.com/api/download/models/1503612?type=Negative&format=Other&token=cdc57523389bf56bcc5b0df68bb6924f"
+    },
+    "lora_downloads": {
+        "YogiRealismLora-v3.0.lite.safetensors": "https://civitai.com/api/download/models/2074888?type=Model&format=SafeTensor&token=cdc57523389bf56bcc5b0df68bb6924f"
+    },
+    "previous_default_models": []
+}
